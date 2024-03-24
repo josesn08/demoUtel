@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output, input, output } from '@angular/core';
+import { Mascota } from '../../models/mascota';
 
 @Component({
   selector: 'app-mascota',
@@ -9,4 +10,15 @@ import { Component } from '@angular/core';
 })
 export class MascotaComponent {
 
+  @Input()
+  public mascota!:Mascota;
+
+  @Output()
+  emisor = new EventEmitter<Mascota>();
+
+  constructor () {}
+
+  public confirmarEliminar( evt:Event ): void {
+
+  }
 }
