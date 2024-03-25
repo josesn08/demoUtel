@@ -7,7 +7,8 @@ export let usuariosPrueba: Usuario[] = [
   { username:'atellez', password:'12345', email:'atellez@correo.net', nombre:'Alejandro', apellidos:'Téllez' },
   { username:'cgiron', password:'12345', email:'cgiron@correo.net', nombre:'Carlos', apellidos:'Girón' },
   { username:'snieto', password:'12345', email:'snieto@correo.net', nombre:'Susana', apellidos:'Nieto' },
-  { username:'jvera', password:'12345', email:'jvera@correo.net', nombre:'Jaime', apellidos:'Vera' }
+  { username:'jvera', password:'12345', email:'jvera@correo.net', nombre:'Jaime', apellidos:'Vera' },
+  { username:'cfelipe', password:'12345', email:'cfelipe@correo.net', nombre:'Carmen', apellidos:'Felipe' },
 ];
 
 export let tiposPrueba: Tipo[] = [
@@ -29,5 +30,6 @@ export let mascotasPrueba: Mascota[] = [
   {id:11, nombre:'Roco', propietario:'cgiron', fechaNac:new Date('2012-03-30'), raza:'Cockapoo', color:'Beige', genero:'Macho', tipo:1, fotoUrl:'https://i.pinimg.com/originals/53/c1/51/53c15188bf7db2e7bcfdadc084cc46f9.jpg'},
   {id:12, nombre:'Lucky', propietario:'cgiron', fechaNac:new Date('2010-03-30'), raza:'Cocker', color:'Miel', genero:'Macho', tipo:1, fotoUrl:'https://cdn.wamiz.fr/cdn-cgi/image/quality=80,width=400,height=400,fit=cover/animal/breed/pictures/61cdd82c1ad1a326747653.jpg'},
   {id:13, nombre:'Molly', propietario:'jvera', fechaNac:new Date('2021-11-30'), raza:'Pomerania', color:'Beige', genero:'Hembra', tipo:1, fotoUrl:'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pomeranian_Thank_You.jpg/250px-Pomeranian_Thank_You.jpg'},
-  {id:14, nombre:'Whiskers', propietario:'jvera', fechaNac:new Date('2021-02-10'), raza:'Snowshoe', color:'Blanco/Beige', genero:'Hembra', tipo:2, fotoUrl:'https://i.pinimg.com/474x/dd/ba/94/ddba94a33f2e216182e9f8347b46c2c4--siamese-cats-kitty-cats.jpg'}
+  {id:14, nombre:'Whiskers', propietario:'jvera', fechaNac:new Date('2021-02-10'), raza:'Snowshoe', color:'Blanco/Beige', genero:'Hembra', tipo:2, fotoUrl:'https://i.pinimg.com/474x/dd/ba/94/ddba94a33f2e216182e9f8347b46c2c4--siamese-cats-kitty-cats.jpg'},
+  {id:15, nombre:'Pequeño', propietario:'cfelipe', fechaNac:new Date('2017-06-01'), raza:'Europeo', color:'Pardo', genero:'Macho', tipo:2, fotoUrl:'https://i.ibb.co/B26JV1W/PHOTO-2024-03-25-21-16-54.jpg'},
 ];

@@ -1,4 +1,4 @@
-@if(true){
+@if(loginSvc.loggedIn()){
   <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
     <div class="container-fluid">
       <span class="navbar brand ms-2 h1 mb-0">
@@ -6,12 +6,12 @@
       </span>
       <div class="navbar-bar align items-end">
         <button class="btn btn-primary me-4" routerlink="/nuevo">Agregar</button>
-        <button class="btn btn-secondary">Cerrar Sesión</button>
+        <button class="btn btn-secondary" (click)="cerrarSesion()">Cerrar Sesión</button>
       </div>
     </div>
   </nav>
 }
 <div class="container mt-4">
-  <router-outlet></router-outlet>/>
+  <router-outlet></router-outlet>
 </div>
 

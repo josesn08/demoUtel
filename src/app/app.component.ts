@@ -1,3 +1,4 @@
+import { LoginService } from './../../../../joseDemoUtel/dogtorpet/src/app/services/login.service';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
@@ -9,5 +10,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
+
   title = 'DogtorPET';
+
+  constructor (public loginSvc:LoginService ) { }
+
+  public cerrarSesion():void{
+    this.loginSvc.logout();
+  }
 }
